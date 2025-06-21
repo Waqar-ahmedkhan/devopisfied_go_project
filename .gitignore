@@ -20,3 +20,12 @@
 # Go workspace file
 go.work
 go.work.sum
+
+# Don't copy these into the Docker image
+.git
+*.log
+*.md
+Dockerfile
+docker-compose.yml
+*.tar.gz
+
